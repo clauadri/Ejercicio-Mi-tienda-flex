@@ -1,0 +1,209 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.tittle-shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+}
+.nav{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.sep{
+    margin-right: 20px;
+}
+.main{
+    display: flex;
+    margin-top: 50px; 
+    justify-content: space-evenly;
+    flex-direction: column;   
+}
+
+.sub-main{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+.foot{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.foot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.foot2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.foot3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;  
+}
+
+ul{
+    margin-top: 15px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+.sep1{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-right-color: #2f2f3a;
+    border-right-style: solid;
+    border-right-width: 1px;
+    padding-right: 12px;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+input[type=email]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 500px; 
+}
+
+input[type=search]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.icon{
+    position: relative;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+}
+
+.but{
+    background: transparent;
+    border:none;
+}
+
+.carro{
+    background: transparent;
+    border:none;
+}
+
+.color1{
+    color:#f0f0f0 ;
+}
+
+.descuento{
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.descuento1{
+    font-size: 25px;  
+}
+
+.desplegable{
+    display: inline-block;
+    position: relative;   
+}
+
+.despegable-content{
+    display: none;
+    background-color: none;
+    min-width: 200px;
+}
+
+.despegable-content a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.buton-menu{
+    background-color:white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.buton-menu:hover {
+    background-color:white;
+}
+
+.desplegable:hover .despegable-content{
+    display: block;
+}
+
+.menu{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    
+}
+
